@@ -66,8 +66,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'healing.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+
 
 
 default_db_url = "sqlite:///" + str(BASE_DIR / "db.sqlite3")
